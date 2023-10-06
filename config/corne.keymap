@@ -37,10 +37,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none      &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp CAPS  &kp INSERT  &none      &kp N0  &kp BSPC
-&none      &none   &none   &none     &none   &none        &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &none   &kp RET
-&kp LSHFT  &none   &none   &none     &none   &none        &none     &none     &none       &none      &none   &none
-                           &kp LGUI  &none   &kp SPACE    &kp RET   &none     &kp RALT
+&trans     &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp CAPS  &kp INSERT  &trans     &kp N0  &kp BSPC
+&trans     &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans  &kp RET
+&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans      &trans     &trans  &trans
+                           &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
             >;
         };
 
@@ -54,17 +54,17 @@
             bindings = <
 &kp GRAVE      &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8        &kp N9         &kp N0     &kp LS(RBKT)
 &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(UNDER)  &kp EQUAL  &kp GRAVE
-&kp LS(PIPE)   &kp BSLH      &none       &kp LS(TILDE)  &kp LS(PIPE)  &kp BSLH         &kp LS(PLUS)   &kp MINUS     &kp LS(LPAR)  &kp LS(RPAR)   &kp BSLH   &kp LS(RBRC)
-                                         &kp LGUI       &none         &kp SPACE        &kp RET        &none         &kp RALT
+&kp LS(PIPE)   &kp BSLH      &trans      &kp LS(TILDE)  &kp LS(PIPE)  &kp BSLH         &kp LS(PLUS)   &kp MINUS     &kp LS(LPAR)  &kp LS(RPAR)   &kp BSLH   &kp LS(RBRC)
+                                         &kp LGUI       &trans        &kp SPACE        &kp RET        &trans        &kp RALT
             >;
         };
 
         bluetooth {
             bindings = <
-&none  &none  &none  &none  &none  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&none  &none  &none  &none  &none  &none    &none         &bt BT_NXT    &bt BT_PRV    &none         &none         &none
-&none  &none  &none  &none  &none  &none    &none         &none         &none         &none         &none         &none
-                     &none  &none  &none    &none         &none         &none
+&trans  &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &bt BT_NXT    &bt BT_PRV    &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans        &trans        &trans        &trans
+                        &trans  &trans  &trans    &trans        &trans        &trans
             >;
 
             label = "bluetooth";
@@ -72,10 +72,10 @@
 
         nav {
             bindings = <
-&none  &none  &none  &none     &none  &none        &none     &none     &none   &none      &none  &kp BSPC
-&none  &none  &none  &none     &none  &none        &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
-&none  &none  &none  &none     &none  &none        &none     &none     &none   &none      &none  &none
-                     &kp LGUI  &none  &kp SPACE    &kp RET   &none     &none
+&trans  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans  &trans     &trans  &kp BSPC
+&trans  &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans  &trans     &trans  &trans
+                        &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &trans
             >;
 
             label = "nav";
@@ -83,10 +83,10 @@
 
         game {
             bindings = <
-&none  &none     &kp UP    &none      &none  &none    &none  &none  &none  &none  &none  &none
-&none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none     &none     &none      &none  &none    &none  &none  &none  &none  &none  &none
-                           &none      &none  &none    &none  &none  &none
+&trans  &trans    &kp UP    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans     &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "game";
