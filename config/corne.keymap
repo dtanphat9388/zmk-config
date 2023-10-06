@@ -70,10 +70,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &kp BSPC
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
-                        &trans  &trans  &trans    &kp RET   &trans    &trans
+&trans  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans  &trans     &trans  &kp BSPC
+&trans  &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans  &trans     &trans  &trans
+                        &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &trans
             >;
 
             label = "nav";
