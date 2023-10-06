@@ -15,9 +15,10 @@
         bootloader-left {
             bindings = <&bootloader>;
             key-positions = <14 15 16>;
-            layers = <>;
+            layers = <0>;
             timeout-ms = <3>;
             require-prior-idle-ms = <0>;
+            slow-release;
         };
 
         bootloader-right {
@@ -25,17 +26,23 @@
             key-positions = <19 20 21>;
             timeout-ms = <3>;
             require-prior-idle-ms = <0>;
-            layers = <>;
+            layers = <0>;
+            slow-release;
         };
 
         esc {
             bindings = <&kp ESC>;
             key-positions = <13 14>;
+            slow-release;
+            layers = <0>;
+            timeout-ms = <0>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <1 2>;
+            slow-release;
+            layers = <0>;
         };
     };
 
