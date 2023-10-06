@@ -20,10 +20,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E      &kp R     &kp T          &kp Y        &kp U  &kp I      &kp O    &kp P     &kp LBKT
-&kp ESC    &kp A  &kp S  &kp D      &kp F     &kp G          &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C      &kp V     &lt 3 B        &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RBKT
-                         &kp LCTRL  &kp LGUI  &lt 4 SPACE    &lt 2 ENTER  &mo 2  &kp RALT
+&kp TAB    &kp Q  &kp W  &kp E     &kp R                 &kp T          &kp Y        &kp U                        &kp I      &kp O    &kp P     &kp LBKT
+&kp ESC    &kp A  &kp S  &kp D     &kp F                 &kp G          &kp H        &kp J                        &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V                 &lt 3 B        &kp N        &kp M                        &kp COMMA  &kp DOT  &kp FSLH  &kp RBKT
+                         &kp LGUI  &mt LEFT_CONTROL DEL  &lt 1 SPACE    &lt 2 ENTER  &mt RIGHT_CONTROL BACKSPACE  &kp RALT
             >;
 
             label = "main";
@@ -37,10 +37,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans     &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp CAPS  &kp INSERT  &trans     &kp N0  &kp BSPC
-&trans     &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans  &kp RET
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans      &trans     &trans  &trans
-                           &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
+&trans  &trans  &trans  &trans    &trans  &trans       &trans    &kp CAPS  &kp INSERT  &trans     &trans  &kp BSPC
+&trans  &trans  &trans  &trans    &mo 5   &trans       &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans  &kp RET
+&trans  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans      &trans     &trans  &trans
+                        &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
             >;
         };
 
@@ -70,17 +70,6 @@
             label = "bluetooth";
         };
 
-        nav {
-            bindings = <
-&trans  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans  &trans     &trans  &kp BSPC
-&trans  &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans  &trans     &trans  &trans
-                        &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &trans
-            >;
-
-            label = "nav";
-        };
-
         game {
             bindings = <
 &trans  &trans    &kp UP    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -90,6 +79,17 @@
             >;
 
             label = "game";
+        };
+
+        nav_fast {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans     &trans   &trans  &kp BSPC
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans     &trans   &trans  &trans
+                        &trans  &trans  &trans    &kp RET   &trans     &trans
+            >;
+
+            label = "nav_fast";
         };
     };
 };
