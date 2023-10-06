@@ -12,7 +12,7 @@
     combos {
         compatible = "zmk,combos";
 
-        bootloader {
+        bootloader-left {
             bindings = <&bootloader>;
             key-positions = <14 15 16 13>;
             slow-release;
@@ -21,7 +21,7 @@
             require-prior-idle-ms = <3>;
         };
 
-        bootloader {
+        bootloader-right {
             bindings = <&bootloader>;
             key-positions = <19 20 21 22>;
             timeout-ms = <3>;
