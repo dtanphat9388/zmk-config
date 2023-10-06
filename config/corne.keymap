@@ -37,10 +37,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &trans    &trans  &trans       &trans    &kp CAPS  &kp INSERT  &trans     &trans  &kp BSPC
-&trans  &trans  &trans  &trans    &mo 5   &trans       &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans  &kp RET
-&trans  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans      &trans     &trans  &trans
-                        &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
+&trans  &trans  &trans  &trans  &trans  &trans       &trans    &kp CAPS  &kp INSERT  &trans     &kp PRINTSCREEN  &kp BSPC
+&trans  &trans  &trans  &trans  &mo 5   &trans       &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans           &kp RET
+&trans  &trans  &trans  &trans  &trans  &trans       &trans    &trans    &trans      &trans     &trans           &trans
+                        &trans  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
             >;
         };
 
@@ -84,7 +84,7 @@
         nav_fast {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans     &trans   &trans  &kp BSPC
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans     &trans   &trans  &trans
                         &trans  &trans  &trans    &kp RET   &trans     &trans
             >;
