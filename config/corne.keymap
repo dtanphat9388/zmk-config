@@ -20,10 +20,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&lt 4 ESC  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &lt 3 B      &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp DEL
-                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp TAB        &kp Q  &kp W  &kp E     &kp R        &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&mt LCTRL ESC  &kp A  &kp S  &kp D     &kp F        &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z  &kp X  &kp C     &kp V        &lt 3 B      &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp DEL
+                             &kp LGUI  &lt 1 SPACE  &kp SPACE    &kp RET  &mo 2  &kp RALT
             >;
         };
 
@@ -35,9 +35,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&trans     &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans    &trans     &trans  &trans
+&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp CAPS  &kp INSERT  &trans     &kp N0  &kp BSPC
+&trans     &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans  &kp RET
+&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans      &trans     &trans  &trans
                            &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
             >;
         };
@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+&kp GRAVE      &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8        &kp N9         &kp N0     &kp LS(RBKT)
+&trans         &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(UNDER)  &kp EQUAL  &kp GRAVE
+&kp LS(TILDE)  &kp BSLH      &trans      &kp LS(TILDE)  &kp LS(PIPE)  &kp BSLH         &kp LS(PLUS)   &kp MINUS     &kp LS(LPAR)  &kp LS(RPAR)   &kp BSLH   &kp LS(RBRC)
+                                         &kp LGUI       &trans        &kp SPACE        &kp RET        &trans        &kp RALT
             >;
         };
 
@@ -77,6 +77,17 @@
             >;
 
             label = "nav";
+        };
+
+        game {
+            bindings = <
+&trans  &trans    &kp UP    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans     &trans  &trans    &trans  &trans  &trans
+            >;
+
+            label = "game";
         };
     };
 };
