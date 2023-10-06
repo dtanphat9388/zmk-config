@@ -34,6 +34,16 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <13 14>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <13 14>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 2>;
+        };
     };
 
     keymap {
