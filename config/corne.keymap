@@ -41,10 +41,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans       &trans    &kp CAPS  &kp INSERT  &trans     &kp PRINTSCREEN  &kp BSPC
-&trans  &trans  &trans  &trans  &mo 5   &trans       &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans           &kp RET
-&trans  &trans  &trans  &trans  &trans  &trans       &trans    &trans    &trans      &trans     &trans           &trans
-                        &trans  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
+&kp LC(TAB)  &trans  &trans  &trans  &trans  &trans       &trans    &kp CAPS  &kp INSERT  &trans     &kp PRINTSCREEN  &kp BSPC
+&kp LC(ESC)  &trans  &trans  &trans  &mo 5   &trans       &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans           &kp RET
+&trans       &trans  &trans  &trans  &trans  &trans       &trans    &trans    &trans      &trans     &trans           &trans
+                             &trans  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
             >;
         };
 
@@ -56,7 +56,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE      &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8                    &kp N9                     &kp N0     &kp LEFT_BRACE
+&kp TILDE      &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8                    &kp N9                     &kp N0     &kp LEFT_BRACE
 &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)              &kp LS(UNDER)              &kp EQUAL  &kp GRAVE
 &kp LS(PIPE)   &trans        &trans      &trans         &trans        &trans           &kp LS(PLUS)   &kp MINUS     &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp BSLH   &kp LS(RBRC)
                                          &kp LGUI       &trans        &kp SPACE        &kp RET        &trans        &kp RALT
