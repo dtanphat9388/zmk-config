@@ -33,7 +33,7 @@
             label = "main";
         };
 
-        raise_layer {
+        nums_signs {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -46,6 +46,8 @@
 &kp LS(PIPE)   &trans        &trans      &trans         &trans        &trans           &kp LS(PLUS)   &kp MINUS     &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp BSLH   &kp LS(RBRC)
                                          &kp LGUI       &trans        &kp SPACE        &kp RET        &trans        &kp RALT
             >;
+
+            label = "nums_signs";
         };
 
         lower_layer {
