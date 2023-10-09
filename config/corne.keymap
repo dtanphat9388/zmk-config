@@ -24,28 +24,13 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R                 &kp T          &kp Y        &kp U                        &kp I      &kp O    &kp P     &kp LBKT
-&kp ESC    &kp A  &kp S  &kp D     &kp F                 &kp G          &kp H        &kp J                        &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V                 &lt 3 B        &kp N        &kp M                        &kp COMMA  &kp DOT  &kp FSLH  &kp RBKT
-                         &kp LGUI  &mt LEFT_CONTROL DEL  &lt 2 SPACE    &lt 1 ENTER  &mt RIGHT_CONTROL BACKSPACE  &kp RALT
+&kp TAB    &kp Q  &kp W  &kp E     &kp R                   &kp T        &kp Y            &kp U                    &kp I      &kp O    &kp P     &kp LBKT
+&kp ESC    &kp A  &kp S  &kp D     &kp F                   &kp G        &kp H            &kp J                    &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V                   &lt 3 B      &kp N            &kp M                    &kp COMMA  &kp DOT  &kp FSLH  &kp RBKT
+                         &kp LGUI  &mt LEFT_CONTROL SPACE  &lt 1 DEL    &lt 2 BACKSPACE  &mt RIGHT_CONTROL ENTER  &kp RALT
             >;
 
             label = "main";
-        };
-
-        lower_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans       &trans    &kp CAPS  &kp INSERT  &trans     &kp PRINTSCREEN  &kp BSPC
-&trans  &trans  &trans  &trans  &mo 5   &trans       &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans           &kp RET
-&trans  &trans  &trans  &trans  &trans  &trans       &trans    &trans    &trans      &trans     &trans           &trans
-                        &trans  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
-            >;
         };
 
         raise_layer {
@@ -60,6 +45,21 @@
 &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)              &kp LS(UNDER)              &kp EQUAL  &kp GRAVE
 &kp LS(PIPE)   &trans        &trans      &trans         &trans        &trans           &kp LS(PLUS)   &kp MINUS     &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp BSLH   &kp LS(RBRC)
                                          &kp LGUI       &trans        &kp SPACE        &kp RET        &trans        &kp RALT
+            >;
+        };
+
+        lower_layer {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
+            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+            //                    | GUI |     | SPC |   | ENT |     | ALT |
+
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans       &trans    &kp CAPS  &kp INSERT  &trans     &kp PRINTSCREEN  &kp BSPC
+&trans  &trans  &trans  &trans  &mo 5   &trans       &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans           &kp RET
+&trans  &trans  &trans  &trans  &trans  &trans       &trans    &trans    &trans      &trans     &trans           &trans
+                        &trans  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
             >;
         };
 
