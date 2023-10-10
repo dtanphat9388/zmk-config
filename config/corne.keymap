@@ -58,10 +58,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp CAPS  &kp INSERT  &trans     &kp PRINTSCREEN  &kp BSPC
-&trans  &trans  &trans  &trans  &mo 5   &trans    &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans           &kp RET
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans      &trans     &trans           &trans
-                        &trans  &trans  &trans    &trans    &trans    &trans
+&trans    &trans  &trans  &trans  &kp INSERT  &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN  &kp BSPC
+&kp CAPS  &trans  &trans  &trans  &trans      &trans    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans           &kp RET
+&trans    &trans  &trans  &trans  &trans      &trans    &trans    &trans     &trans     &trans     &trans           &trans
+                          &trans  &trans      &trans    &trans    &trans     &trans
             >;
         };
 
@@ -85,17 +85,6 @@
             >;
 
             label = "game";
-        };
-
-        nav_fast {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans     &trans   &trans  &kp BSPC
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans     &trans   &trans  &trans
-                        &trans  &trans  &trans    &kp RET   &trans     &trans
-            >;
-
-            label = "nav_fast";
         };
     };
 };
