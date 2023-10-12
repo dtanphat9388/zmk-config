@@ -24,10 +24,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB        &kp Q       &kp W             &kp E        &kp R        &kp T            &kp Y                &kp U        &kp I        &kp O         &kp P               &kp LBKT
-&mt LCTRL ESC  &mt LALT A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LGUI F   &kp G            &kp H                &mt RGUI J   &mt RCTRL K  &mt RSHIFT L  &mt RALT SEMICOLON  &kp SQT
-&kp LSHFT      &kp Z       &kp X             &kp C        &kp V        &lt 3 B          &kp N                &kp M        &kp COMMA    &kp DOT       &kp FSLH            &kp RBKT
-                                             &kp LGUI     &lt 1 SPACE  &mt LCTRL DEL    &mt RCTRL BACKSPACE  &lt 2 SPACE  &kp RALT
+&kp TAB  &kp Q       &kp W             &kp E        &kp R        &kp T                  &kp Y            &kp U        &kp I        &kp O         &kp P               &kp LBKT
+&kp ESC  &mt LALT A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LGUI F   &kp G                  &kp H            &mt RGUI J   &mt RCTRL K  &mt RSHIFT L  &mt RALT SEMICOLON  &kp SQT
+&kp DEL  &kp Z       &kp X             &kp C        &kp V        &lt 3 B                &kp N            &kp M        &kp COMMA    &kp DOT       &kp FSLH            &kp RBKT
+                                       &kp LGUI     &lt 1 SPACE  &mt LCTRL BACKSPACE    &mt RCTRL ENTER  &lt 2 SPACE  &kp DEL
             >;
 
             label = "main";
