@@ -42,10 +42,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans    &trans  &trans          &trans  &kp INSERT  &trans    &kp HOME        &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN  &kp BACKSPACE
-&kp CAPS  &trans  &kp SCROLLLOCK  &trans  &trans      &trans    &kp LEFT        &kp DOWN   &kp UP     &kp RIGHT  &trans           &kp ENTER
-&trans    &trans  &trans          &trans  &trans      &trans    &kp KP_NUMLOCK  &trans     &trans     &trans     &trans           &kp DEL
-                                  &mo 6   &trans      &trans    &trans          &mo 7      &trans
+&none     &none  &none           &none  &kp INSERT  &none    &kp HOME        &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN  &kp BACKSPACE
+&kp CAPS  &none  &kp SCROLLLOCK  &none  &none       &none    &kp LEFT        &kp DOWN   &kp UP     &kp RIGHT  &key_repeat      &kp ENTER
+&none     &none  &none           &none  &none       &none    &kp KP_NUMLOCK  &none      &none      &none      &none            &kp DEL
+                                 &mo 6  &none       &none    &none           &mo 7      &none
             >;
 
             label = "nav";
@@ -61,8 +61,8 @@
             bindings = <
 &kp TILDE     &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8                    &kp N9                     &kp N0     &kp LEFT_BRACE
 &kp LS(PIPE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)              &kp LS(UNDER)              &kp EQUAL  &kp GRAVE
-&trans        &trans        &trans      &trans         &trans        &trans           &kp LS(PLUS)   &kp MINUS     &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp BSLH   &kp LS(RBRC)
-                                        &trans         &mo 7         &trans           &trans         &key_repeat   &mo 6
+&none         &none         &none       &none          &none         &none            &kp LS(PLUS)   &kp MINUS     &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp BSLH   &kp LS(RBRC)
+                                        &none          &mo 7         &none            &none          &key_repeat   &mo 6
             >;
 
             label = "nums_signs";
@@ -70,10 +70,10 @@
 
         bluetooth {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans    &trans        &bt BT_NXT    &bt BT_PRV    &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans        &trans        &trans        &trans
-                        &trans  &trans  &trans    &trans        &trans        &trans
+&none  &none  &none  &none  &none  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&none  &none  &none  &none  &none  &none    &none         &bt BT_NXT    &bt BT_PRV    &none         &none         &none
+&none  &none  &none  &none  &none  &none    &none         &none         &none         &none         &none         &none
+                     &none  &none  &none    &none         &none         &none
             >;
 
             label = "bluetooth";
@@ -81,10 +81,10 @@
 
         game {
             bindings = <
-&trans  &trans    &kp UP    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans     &trans  &trans    &trans  &trans  &trans
+&none  &none     &kp UP    &none      &none  &none    &none  &none  &none  &none  &none  &none
+&none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none     &none     &none      &none  &none    &none  &none  &none  &none  &none  &none
+                           &none      &none  &none    &none  &none  &none
             >;
 
             label = "game";
