@@ -119,10 +119,10 @@
 
         spacial {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &bootloader    &bootloader  &trans  &trans
+&none  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none  &none
+                     &none  &none  &bootloader    &bootloader  &none  &none
             >;
 
             label = "spacial";
@@ -130,10 +130,10 @@
 
         settings {
             bindings = <
-&trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans  &to 4     &trans  &trans  &trans  &to 8   &trans  &trans
-&trans  &trans  &trans  &out OUT_TOG  &trans  &mo 3     &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans        &trans  &trans    &trans  &trans  &trans
+&none  &none  &none  &none         &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none         &none  &to 4    &none  &none  &none  &to 8  &none  &none
+&none  &none  &none  &out OUT_TOG  &none  &mo 3    &none  &none  &none  &none  &none  &none
+                     &none         &none  &none    &none  &none  &none
             >;
 
             label = "settings";
@@ -141,10 +141,10 @@
 
         layout_switcher {
             bindings = <
-&trans  &tog 0  &trans  &trans  &tog 5  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&none  &tog 0  &none  &none  &tog 5  &none    &none  &none  &none  &none  &none  &none
+&none  &none   &none  &none  &none   &none    &none  &none  &none  &none  &none  &none
+&none  &none   &none  &none  &none   &none    &none  &none  &none  &none  &none  &none
+                      &none  &none   &none    &none  &none  &none
             >;
 
             label = "layout_switcher";
