@@ -50,7 +50,7 @@
             label = "nums_signs";
         };
 
-        lower_layer {
+        nav {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -58,11 +58,13 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans    &trans  &trans  &trans  &kp INSERT  &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN  &kp BSPC
-&kp CAPS  &trans  &trans  &trans  &trans      &trans    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans           &kp RET
-&trans    &trans  &trans  &trans  &trans      &trans    &trans    &trans     &trans     &trans     &trans           &trans
-                          &trans  &trans      &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &kp BSPC
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &kp RET
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans     &trans     &trans  &trans
+                        &trans  &trans  &trans    &trans    &trans     &trans
             >;
+
+            label = "nav";
         };
 
         bluetooth {
@@ -85,6 +87,17 @@
             >;
 
             label = "game";
+        };
+
+        layout_rstlne {
+            bindings = <
+&trans  &kp Q  &kp W  &kp D   &kp F   &kp Z            &kp SEMI  &kp U   &kp K   &kp Y      &kp P    &kp LBKT
+&trans  &kp A  &kp S  &kp E   &kp R   &kp L            &kp H     &kp N   &kp I   &kp O      &kp T    &kp SQT
+&trans  &kp G  &kp X  &kp C   &kp V   &kp LS(QMARK)    &kp B     &kp J   &kp M   &kp COMMA  &kp DOT  &kp RBKT
+                      &trans  &trans  &trans           &trans    &trans  &trans
+            >;
+
+            label = "layout_rstlne";
         };
     };
 };
