@@ -45,7 +45,7 @@
 &kp TILDE     &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8                    &kp N9                     &kp N0     &kp LEFT_BRACE
 &kp LS(PIPE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)              &kp LS(UNDER)              &kp EQUAL  &kp GRAVE
 &none         &none         &none       &none          &none         &none            &kp LS(PLUS)   &kp MINUS     &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp BSLH   &kp LS(RBRC)
-                                        &none          &mo 7         &none            &none          &key_repeat   &mo 6
+                                        &mo 6          &mo 7         &none            &none          &key_repeat   &trans
             >;
 
             label = "nums_signs";
@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none     &none  &none           &none  &kp INSERT  &none    &kp HOME        &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN  &kp BACKSPACE
-&kp CAPS  &none  &kp SCROLLLOCK  &none  &none       &none    &kp LEFT        &kp DOWN   &kp UP     &kp RIGHT  &key_repeat      &kp ENTER
-&none     &none  &none           &none  &none       &none    &kp KP_NUMLOCK  &none      &none      &none      &none            &kp DEL
-                                 &mo 6  &none       &none    &none           &mo 7      &none
+&none     &none  &none           &none   &kp INSERT  &none    &kp HOME        &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN  &kp BACKSPACE
+&kp CAPS  &none  &kp SCROLLLOCK  &none   &none       &none    &kp LEFT        &kp DOWN   &kp UP     &kp RIGHT  &key_repeat      &kp ENTER
+&none     &none  &none           &none   &none       &none    &kp KP_NUMLOCK  &none      &none      &none      &none            &kp DEL
+                                 &trans  &none       &none    &none           &mo 7      &mo 6
             >;
 
             label = "nav";
