@@ -15,7 +15,7 @@
         reboot_left {
             bindings = <&bootloader>;
             key-positions = <13 14 15 16>;
-            timeout-ms = <5>;
+            timeout-ms = <3>;
             slow-release;
             layers = <0>;
         };
@@ -23,7 +23,7 @@
         reboot_right {
             bindings = <&bootloader>;
             key-positions = <19 20 21 22>;
-            timeout-ms = <5>;
+            timeout-ms = <3>;
             slow-release;
             layers = <0>;
         };
