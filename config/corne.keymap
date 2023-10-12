@@ -27,27 +27,10 @@
 &mt LEFT_ALT TAB  &kp Q  &kp W  &kp E         &kp R        &kp T                   &kp Y            &kp U        &kp I          &kp O    &kp P          &kp LBKT
 &mt LCTRL ESC     &kp A  &kp S  &kp D         &kp F        &kp G                   &kp H            &kp J        &kp K          &kp L    &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V        &lt 3 B                 &kp N            &kp M        &kp COMMA      &kp DOT  &kp FSLH       &kp RBKT
-                                &mt LGUI DEL  &lt 2 SPACE  &mt LEFT_SHIFT SPACE    &mt RCTRL ENTER  &lt 1 SPACE  &kp BACKSPACE
+                                &mt LGUI DEL  &lt 1 SPACE  &mt LEFT_SHIFT SPACE    &mt RCTRL ENTER  &lt 2 SPACE  &kp BACKSPACE
             >;
 
             label = "main";
-        };
-
-        nums_signs {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
-            bindings = <
-&kp TILDE     &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8                    &kp N9                     &kp N0     &kp LEFT_BRACE
-&kp LS(PIPE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)              &kp LS(UNDER)              &kp EQUAL  &kp GRAVE
-&kp LS(PIPE)  &trans        &trans      &trans         &trans        &trans           &kp LS(PLUS)   &kp MINUS     &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp BSLH   &kp LS(RBRC)
-                                        &mo 6          &trans        &trans           &trans         &key_repeat   &trans
-            >;
-
-            label = "nums_signs";
         };
 
         nav {
@@ -65,6 +48,23 @@
             >;
 
             label = "nav";
+        };
+
+        nums_signs {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+            //                    | GUI |     | SPC |   | ENT |     | ALT |
+
+            bindings = <
+&kp TILDE     &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8                    &kp N9                     &kp N0     &kp LEFT_BRACE
+&kp LS(PIPE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)              &kp LS(UNDER)              &kp EQUAL  &kp GRAVE
+&kp LS(PIPE)  &trans        &trans      &trans         &trans        &trans           &kp LS(PLUS)   &kp MINUS     &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp BSLH   &kp LS(RBRC)
+                                        &mo 6          &trans        &trans           &trans         &key_repeat   &trans
+            >;
+
+            label = "nums_signs";
         };
 
         bluetooth {
