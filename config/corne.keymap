@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &none  &none           &none     &kp INSERT  &none        &kp HOME        &kp PG_DN  &kp PG_UP  &kp END      &kp PRINTSCREEN  &kp BACKSPACE
-&none  &none  &kp SCROLLLOCK  &none     &none       &none        &kp LEFT        &kp DOWN   &kp UP     &kp RIGHT    &none            &kp ENTER
-&none  &none  &none           &kp CAPS  &none       &none        &kp KP_NUMLOCK  &none      &none      &key_repeat  &none            &kp DEL
-                              &none     &none       &kp SPACE    &kp SPACE       &none      &mo 6
+&none  &none  &none           &none      &kp INSERT  &none        &kp HOME        &kp PG_DN  &kp PG_UP  &kp END      &kp PRINTSCREEN  &kp BACKSPACE
+&none  &none  &kp SCROLLLOCK  &none      &none       &none        &kp LEFT        &kp DOWN   &kp UP     &kp RIGHT    &none            &kp ENTER
+&none  &none  &none           &kp CAPS   &none       &none        &kp KP_NUMLOCK  &none      &none      &key_repeat  &none            &kp DEL
+                              &kp LCTRL  &none       &kp SPACE    &kp SPACE       &none      &mo 6
             >;
 
             label = "nav";
