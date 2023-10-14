@@ -59,9 +59,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &none  &none  &none     &none      &none        &kp HOME   &kp PG_DN  &kp PG_UP  &kp END      &kp PRINTSCREEN  &kp BACKSPACE
-&none  &none  &none  &none     &none      &none        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT    &none            &kp ENTER
-&none  &none  &none  &none     &none      &none        &none      &none      &none      &key_repeat  &none            &kp DEL
+&none  &none  &none  &none     &none      &none        &kp HOME   &kp PG_DN  &kp PG_UP  &kp END      &none  &kp BACKSPACE
+&none  &none  &none  &none     &none      &none        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT    &none  &kp ENTER
+&none  &none  &none  &none     &none      &none        &none      &none      &none      &key_repeat  &none  &kp DEL
                      &kp LGUI  &kp LCTRL  &kp SPACE    &kp SPACE  &mo 7      &mo 6
             >;
 
