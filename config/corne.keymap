@@ -114,9 +114,9 @@
 
         settings {
             bindings = <
-&none  &none  &none  &none         &none  &none    &none  &kp CAPS  &kp INS  &none  &none  &none
-&none  &none  &none  &none         &none  &to 4    &none  &none     &none    &to 8  &none  &none
-&none  &none  &none  &out OUT_TOG  &none  &mo 3    &none  &none     &none    &none  &none  &none
+&none  &none  &none  &none         &none  &none    &none  &kp CAPS  &kp INS  &none  &kp PRINTSCREEN  &none
+&none  &none  &none  &none         &none  &to 4    &none  &none     &none    &to 8  &none            &none
+&none  &none  &none  &out OUT_TOG  &none  &mo 3    &none  &none     &none    &none  &none            &none
                      &none         &none  &none    &none  &none     &none
             >;
 
