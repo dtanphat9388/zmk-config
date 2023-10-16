@@ -60,8 +60,8 @@
 
             bindings = <
 &none  &none  &none  &none     &none      &none    &kp HOME   &kp PG_DN  &kp PG_UP  &kp END      &none  &kp BACKSPACE
-&none  &none  &none  &none     &none      &to 4    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT    &none  &kp ENTER
-&none  &none  &none  &none     &none      &to 3    &none      &none      &none      &key_repeat  &none  &kp DEL
+&none  &none  &none  &mo 11    &mo 10     &none    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT    &none  &kp ENTER
+&none  &none  &none  &none     &none      &mo 3    &none      &none      &none      &key_repeat  &none  &kp DEL
                      &kp LGUI  &kp LCTRL  &to 0    &kp SPACE  &mo 7      &mo 6
             >;
 
@@ -72,7 +72,7 @@
             bindings = <
 &none  &none  &none  &none  &none  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
 &none  &none  &none  &none  &none  &none    &none         &bt BT_NXT    &bt BT_PRV    &none         &none         &none
-&none  &none  &none  &none  &none  &none    &none         &none         &none         &none         &none         &none
+&none  &none  &none  &none  &none  &none    &none         &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &none         &none
                      &none  &none  &none    &none         &to 0         &none
             >;
 
@@ -116,7 +116,7 @@
             bindings = <
 &none  &none  &none  &none         &none  &none    &none  &kp CAPS  &kp INS  &none  &kp PRINTSCREEN  &none
 &none  &none  &none  &none         &none  &to 4    &none  &none     &none    &to 8  &none            &none
-&none  &none  &none  &out OUT_TOG  &none  &mo 3    &none  &none     &none    &none  &none            &none
+&none  &none  &none  &out OUT_TOG  &none  &none    &none  &none     &none    &none  &none            &none
                      &none         &none  &none    &none  &none     &none
             >;
 
