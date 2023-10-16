@@ -62,7 +62,7 @@
 &none  &none  &none  &none     &none      &none    &kp HOME   &kp PG_DN  &kp PG_UP  &kp END      &none  &kp BACKSPACE
 &none  &none  &none  &mo 11    &mo 10     &none    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT    &none  &kp ENTER
 &none  &none  &none  &none     &none      &mo 3    &none      &none      &none      &key_repeat  &none  &kp DEL
-                     &kp LGUI  &kp LCTRL  &to 0    &kp SPACE  &mo 7      &mo 6
+                     &kp LGUI  &kp LCTRL  &to 0    &kp SPACE  &to 7      &mo 6
             >;
 
             label = "nav";
@@ -114,10 +114,10 @@
 
         settings {
             bindings = <
-&none  &none  &none  &none         &none  &none    &none  &kp CAPS  &kp INS  &none  &kp PRINTSCREEN  &none
-&none  &none  &none  &none         &none  &to 4    &none  &none     &none    &to 8  &none            &none
-&none  &none  &none  &out OUT_TOG  &none  &none    &none  &none     &none    &none  &none            &none
-                     &none         &none  &none    &none  &none     &none
+&none         &none  &none  &none  &none  &none    &none  &kp CAPS  &kp INS  &none  &kp PRINTSCREEN  &none
+&kp CAPSLOCK  &none  &none  &none  &none  &to 4    &none  &none     &none    &to 8  &none            &none
+&none         &none  &none  &none  &none  &none    &none  &none     &none    &none  &none            &none
+                            &none  &none  &none    &none  &to 0     &none
             >;
 
             label = "settings";
@@ -136,10 +136,10 @@
 
         volumes {
             bindings = <
-&kp  &kp  &kp  &kp  &kp  &kp    &kp K_NEXT  &kp                &kp              &kp  &kp  &kp
-&kp  &kp  &kp  &kp  &kp  &kp    &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp  &kp  &kp
-&kp  &kp  &kp  &kp  &kp  &kp    &kp         &kp                &kp              &kp  &kp  &kp
-               &kp  &kp  &kp    &kp         &to 0              &kp
+&kp  &kp  &kp  &kp  &kp  &kp    &kp C_BRIGHTNESS_MINIMUM  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_MAXIMUM  &kp  &kp
+&kp  &kp  &kp  &kp  &kp  &kp    &kp K_MUTE                &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp                       &kp  &kp
+&kp  &kp  &kp  &kp  &kp  &kp    &kp                       &kp                   &kp                   &kp                       &kp  &kp
+               &kp  &kp  &kp    &kp                       &to 0                 &kp
             >;
 
             label = "volumes";
