@@ -123,7 +123,7 @@
             label = "settings";
         };
 
-        layout_switcher {
+        switcher {
             bindings = <
 &none  &tog 0  &none  &none  &tog 5  &none    &none  &none  &none  &none  &none  &none
 &none  &none   &none  &none  &none   &none    &none  &none  &none  &none  &none  &none
@@ -131,7 +131,7 @@
                       &none  &none   &none    &none  &none  &none
             >;
 
-            label = "layout_switcher";
+            label = "switcher";
         };
 
         volumes {
