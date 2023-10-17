@@ -92,10 +92,10 @@
 
         rstlne {
             bindings = <
-&mt LEFT_ALT TAB  &kp Q  &kp W  &kp D            &kp F            &kp Z            &kp SEMI          &kp U  &kp K               &kp Y      &kp P    &kp LBKT
-&lt 2 ESC         &kp A  &kp S  &kp E            &kp R            &kp L            &kp H             &kp N  &kp I               &kp O      &kp T    &kp SQT
-&kp LEFT_SHIFT    &kp G  &kp X  &kp C            &kp V            &kp LS(QMARK)    &kp B             &kp J  &kp M               &kp COMMA  &kp DOT  &kp RBKT
-                                &mt LGUI DELETE  &mt LCTRL SPACE  &kp SPACE        &mt RSHIFT SPACE  &mo 1  &mt RALT BACKSPACE
+&mt LEFT_ALT TAB  &kp Q  &kp W  &kp D            &kp F            &kp Z           &kp SEMI          &kp U  &kp K               &kp Y      &kp P    &kp LBKT
+&lt 2 ESC         &kp A  &kp S  &kp E            &kp R            &kp L           &kp H             &kp N  &kp I               &kp O      &kp T    &kp SQT
+&kp LEFT_SHIFT    &kp G  &kp X  &kp C            &kp V            &kp QUESTION    &kp B             &kp J  &kp M               &kp COMMA  &kp DOT  &kp RBKT
+                                &mt LGUI DELETE  &mt LCTRL SPACE  &kp SPACE       &mt RSHIFT SPACE  &mo 1  &mt RALT BACKSPACE
             >;
 
             label = "rstlne";
