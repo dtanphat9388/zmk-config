@@ -31,7 +31,6 @@
                                 &mt LGUI DELETE  &kp LCTRL  &kp SPACE    &mt LEFT_SHIFT SPACE  &lt 1 ENTER  &mt RALT BACKSPACE
             >;
 
-            label = "main";
         };
 
         nums_signs {
@@ -48,7 +47,6 @@
                                                       &kp LGUI   &kp LCTRL       &kp SPACE      &kp SPACE  &kp RCTRL      &kp RALT
             >;
 
-            label = "nums_signs";
         };
 
         nav {
@@ -65,7 +63,6 @@
                         &kp LGUI  &kp LCTRL  &to 0     &kp SPACE  &to 7      &trans
             >;
 
-            label = "nav";
         };
 
         bluetooth {
@@ -76,7 +73,6 @@
                         &trans  &trans  &trans    &trans        &to 0         &trans
             >;
 
-            label = "bluetooth";
         };
 
         game {
@@ -87,7 +83,6 @@
                             &trans     &trans  &trans    &trans  &to 0   &trans
             >;
 
-            label = "game";
         };
 
         rstlne {
@@ -98,7 +93,6 @@
                                 &mt LGUI DELETE  &mt LCTRL SPACE  &kp SPACE       &mt RSHIFT SPACE  &mo 1  &mt RALT BACKSPACE
             >;
 
-            label = "rstlne";
         };
 
         spacial {
@@ -109,7 +103,6 @@
                      &none  &none  &bootloader    &bootloader  &none  &none
             >;
 
-            label = "spacial";
         };
 
         settings {
@@ -120,7 +113,6 @@
                             &none  &none  &none    &none  &to 0     &none
             >;
 
-            label = "settings";
         };
 
         switcher {
@@ -131,7 +123,6 @@
                       &none  &none   &none    &none  &none  &none
             >;
 
-            label = "switcher";
         };
 
         volumes {
@@ -142,7 +133,6 @@
                &kp  &kp  &kp    &kp                       &to 0                 &kp
             >;
 
-            label = "volumes";
         };
 
         fkeys {
@@ -153,7 +143,6 @@
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
-            label = "fkeys";
         };
 
         num_pad {
@@ -164,7 +153,6 @@
                      &none  &none  &none    &kp EQUAL  &kp N0  &kp DOT
             >;
 
-            label = "num_pad";
         };
 
         layer_12 {
