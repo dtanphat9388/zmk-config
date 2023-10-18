@@ -30,7 +30,6 @@
 &kp LEFT_SHIFT    &kp Z  &kp X  &kp C            &kp V      &kp B        &kp N                 &kp M        &kp COMMA           &kp DOT  &kp FSLH       &kp RIGHT_BRACKET
                                 &mt LGUI DELETE  &kp LCTRL  &kp SPACE    &mt LEFT_SHIFT SPACE  &lt 1 ENTER  &mt RALT BACKSPACE
             >;
-
         };
 
         nums_signs {
@@ -46,7 +45,6 @@
 &kp BACKSLASH  &kp PLUS         &kp LEFT_PARENTHESIS  &kp RPAR   &kp UNDERSCORE  &trans         &trans     &trans         &trans        &trans     &trans     &kp RIGHT_BRACE
                                                       &kp LGUI   &kp LCTRL       &kp SPACE      &kp SPACE  &kp RCTRL      &kp RALT
             >;
-
         };
 
         nav {
@@ -62,7 +60,6 @@
 &trans  &trans  &trans  &trans    &trans     &mo 3     &trans     &trans     &trans     &key_repeat  &trans  &kp DEL
                         &kp LGUI  &kp LCTRL  &to 0     &kp SPACE  &to 7      &trans
             >;
-
         };
 
         bluetooth {
@@ -72,7 +69,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans        &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &trans        &trans
                         &trans  &trans  &trans    &trans        &to 0         &trans
             >;
-
         };
 
         game {
@@ -82,7 +78,6 @@
 &trans  &trans    &trans    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                             &trans     &trans  &trans    &trans  &to 0   &trans
             >;
-
         };
 
         rstlne {
@@ -92,7 +87,6 @@
 &kp LEFT_SHIFT    &kp G  &kp X  &kp C            &kp V            &kp QUESTION    &kp B             &kp J  &kp M               &kp COMMA  &kp DOT  &kp RBKT
                                 &mt LGUI DELETE  &mt LCTRL SPACE  &kp SPACE       &mt RSHIFT SPACE  &mo 1  &mt RALT BACKSPACE
             >;
-
         };
 
         spacial {
@@ -102,7 +96,6 @@
 &none  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none  &none
                      &none  &none  &bootloader    &bootloader  &none  &none
             >;
-
         };
 
         settings {
@@ -112,7 +105,6 @@
 &none         &none  &none  &none  &none  &none    &none  &none     &none    &none  &none            &none
                             &none  &none  &none    &none  &to 0     &none
             >;
-
         };
 
         switcher {
@@ -122,7 +114,6 @@
 &none  &none   &none  &none  &none   &none    &none  &none  &none  &none  &none  &none
                       &none  &none   &none    &none  &none  &none
             >;
-
         };
 
         volumes {
@@ -132,7 +123,6 @@
 &kp  &kp  &kp  &kp  &kp  &kp    &kp                       &kp                   &kp                   &kp                       &kp  &kp
                &kp  &kp  &kp    &kp                       &to 0                 &kp
             >;
-
         };
 
         fkeys {
@@ -142,7 +132,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
-
         };
 
         num_pad {
@@ -151,16 +140,6 @@
 &none  &none  &none  &none  &none  &none    &none      &kp N4  &kp N5   &kp N6  &kp EQUAL  &kp PLUS
 &none  &none  &none  &none  &none  &none    &kp COMMA  &kp N1  &kp N2   &kp N3  &kp FSLH   &kp STAR
                      &none  &none  &none    &kp EQUAL  &kp N0  &kp DOT
-            >;
-
-        };
-
-        layer_12 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
