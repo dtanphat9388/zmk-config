@@ -144,10 +144,10 @@
 
         layouts {
             bindings = <
-&none  &none  &tog 0  &none  &tog 5  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none   &none  &none   &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none   &none  &none   &none    &none  &none  &none  &none  &none  &none
-                      &none  &none   &none    &none  &none  &none
+&trans  &trans  &tog 0  &trans  &tog 5  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "LAYOUTS";
