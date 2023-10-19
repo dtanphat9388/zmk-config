@@ -39,6 +39,8 @@
 &kp LEFT_SHIFT    &kp Z  &kp X  &kp C            &kp V      &kp B        &kp N      &kp M        &kp COMMA            &kp DOT  &kp FSLH  &ht RSHIFT RIGHT_BRACKET
                                 &mt LGUI DELETE  &kp LCTRL  &kp SPACE    &kp SPACE  &lt 1 ENTER  &mt RCTRL BACKSPACE
             >;
+
+            label = "MAIN";
         };
 
         nums_signs {
@@ -54,6 +56,8 @@
 &kp LSHIFT  &kp PLUS         &kp LEFT_PARENTHESIS  &kp RPAR   &kp UNDERSCORE  &trans         &trans     &trans         &trans        &trans     &kp BACKSLASH  &kp RIGHT_BRACE
                                                    &kp LGUI   &kp LCTRL       &kp SPACE      &kp SPACE  &kp RCTRL      &kp RALT
             >;
+
+            label = "SIGNS";
         };
 
         nav {
@@ -69,6 +73,8 @@
 &none  &none  &none  &mo 8     &none      &mo 3    &none      &none      &none      &key_repeat  &none  &kp DEL
                      &kp LGUI  &kp LCTRL  &to 0    &kp SPACE  &mo 7      &none
             >;
+
+            label = "NAV";
         };
 
         bluetooth {
@@ -96,6 +102,8 @@
 &kp LEFT_SHIFT    &kp G  &kp X  &kp C            &kp V            &kp QUESTION    &kp B             &kp J  &kp M               &kp COMMA  &kp DOT  &kp RBKT
                                 &mt LGUI DELETE  &mt LCTRL SPACE  &kp SPACE       &mt RSHIFT SPACE  &mo 1  &mt RALT BACKSPACE
             >;
+
+            label = "RSTLNE";
         };
 
         spacial {
@@ -136,10 +144,10 @@
 
         layouts {
             bindings = <
-&none  &none  &to 0  &none  &to 5  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &none  &none  &none    &none  &none  &none
+&none  &none  &tog 0  &none  &tog 5  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none   &none  &none   &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none   &none  &none   &none    &none  &none  &none  &none  &none  &none
+                      &none  &none   &none    &none  &none  &none
             >;
         };
     };
