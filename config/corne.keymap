@@ -11,17 +11,6 @@
 
 / {
     behaviors {
-        ht_tap_prefer: ht_tap_prefer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_TAP_PREFER";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <200>;
-            bindings = <&kp>, <&kp>;
-
-            hold-trigger-on-release;
-            retro-tap;
-        };
     };
 
     keymap {
@@ -35,10 +24,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt LEFT_ALT TAB  &kp Q                          &kp W                    &kp E            &kp R                  &kp T        &kp Y                  &kp U                  &kp I                            &kp O                    &kp P                           &kp LEFT_BRACKET
-&lt 2 ESC         &ht_tap_prefer LEFT_CONTROL A  &ht_tap_prefer LSHIFT S  &kp D            &ht_tap_prefer LGUI F  &kp G        &kp H                  &ht_tap_prefer RGUI J  &kp K                            &ht_tap_prefer RSHIFT L  &ht_tap_prefer RCTRL SEMICOLON  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT    &kp Z                          &kp X                    &kp C            &kp V                  &kp B        &kp N                  &kp M                  &kp COMMA                        &kp DOT                  &kp FSLH                        &kp RIGHT_BRACKET
-                                                                          &mt LGUI DELETE  &kp LCTRL              &kp SPACE    &mt RIGHT_SHIFT SPACE  &mo 1                  &ht_tap_prefer RSHIFT BACKSPACE
+&mt LEFT_ALT TAB  &kp Q  &kp W  &kp E            &kp R      &kp T        &kp Y                  &kp U        &kp I                &kp O    &kp P     &kp LEFT_BRACKET
+&lt 2 ESC         &kp A  &kp S  &kp D            &kp F      &kp G        &kp H                  &kp J        &kp K                &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C            &kp V      &kp B        &kp N                  &kp M        &kp COMMA            &kp DOT  &kp FSLH  &kp RIGHT_BRACKET
+                                &mt LGUI DELETE  &kp LCTRL  &kp SPACE    &mt RIGHT_SHIFT SPACE  &lt 1 ENTER  &mt RCTRL BACKSPACE
             >;
         };
 
