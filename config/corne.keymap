@@ -102,5 +102,14 @@
                      &none  &none  &none    &none           &none     &none
             >;
         };
+
+        control {
+            bindings = <
+&kp  &kp  &kp  &kp  &kp  &kp    &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_BRI_DEC  &kp C_BRI_INC  &kp
+&kp  &kp  &kp  &kp  &kp  &kp    &kp         &kp                &kp           &kp            &kp            &kp
+&kp  &kp  &kp  &kp  &kp  &kp    &kp         &kp                &kp           &kp            &kp            &kp
+               &kp  &kp  &kp    &kp         &kp                &kp
+            >;
+        };
     };
 };
