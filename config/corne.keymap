@@ -149,6 +149,8 @@
 &none  &none  &none   &none  &none   &none    &none  &none  &none  &none  &none  &none
                       &none  &none   &none    &none  &none  &none
             >;
+
+            label = "LAYOUTS";
         };
     };
 };
