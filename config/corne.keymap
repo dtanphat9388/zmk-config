@@ -101,7 +101,7 @@
             bindings = <
 &none  &none  &none  &none  &none  &none    &none           &kp CAPS  &kp INS  &none  &kp PRINTSCREEN  &none
 &none  &none  &none  &none  &none  &none    &none           &none     &none    &none  &none            &none
-&none  &none  &none  &none  &none  &none    &kp KP_NUMLOCK  &none     &none    &none  &none            &none
+&none  &none  &none  &none  &none  &none    &kp KP_NUMLOCK  &none     &none    &none  &sl 10           &none
                      &none  &none  &none    &none           &none     &none
             >;
         };
@@ -121,6 +121,15 @@
 &none  &none  &none  &none     &none      &none        &none      &kp F4  &kp F5    &kp F6  &kp F11  &none
 &none  &none  &none  &none     &none      &none        &none      &kp F1  &kp F2    &kp F3  &kp F12  &none
                      &kp LGUI  &kp LCTRL  &kp SPACE    &kp LSHFT  &none   &kp LALT
+            >;
+        };
+
+        layouts {
+            bindings = <
+&none  &none  &to 0  &none  &to 5  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+                     &none  &none  &none    &none  &none  &none
             >;
         };
     };
