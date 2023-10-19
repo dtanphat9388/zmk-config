@@ -15,11 +15,12 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HT_TAP_PREFER";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            flavor = "balanced";
+            tapping-term-ms = <300>;
             bindings = <&kp>, <&kp>;
 
             hold-trigger-on-release;
+            retro-tap;
         };
     };
 
