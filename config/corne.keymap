@@ -69,8 +69,8 @@
 
             bindings = <
 &none  &none  &none  &none     &mo 5      &none               &kp HOME          &kp PG_DN  &kp PG_UP  &kp END      &none  &kp BACKSPACE
-&none  &none  &none  &none     &mo 8      &mo 4               &kp LEFT          &kp DOWN   &kp UP     &kp RIGHT    &none  &kp ENTER
-&none  &none  &none  &mo 7     &none      &mo 3               &none             &none      &none      &key_repeat  &none  &kp DEL
+&none  &none  &none  &none     &sl 8      &mo 4               &kp LEFT          &kp DOWN   &kp UP     &kp RIGHT    &none  &kp ENTER
+&none  &none  &none  &mo 7     &none      &sl 3               &none             &none      &none      &key_repeat  &none  &kp DEL
                      &kp LGUI  &kp LCTRL  &mt LSHIFT SPACE    &mt RSHIFT SPACE  &mo 6      &kp RALT
             >;
 
