@@ -154,5 +154,16 @@
 
             label = "fkeys";
         };
+
+        toggle {
+            bindings = <
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &to 4    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &to 7  &none  &to 3    &none  &none  &none  &none  &none  &none
+                     &none  &none  &none    &none  &none  &none
+            >;
+
+            label = "TOGGLE";
+        };
     };
 };
