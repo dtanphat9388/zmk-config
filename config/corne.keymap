@@ -60,7 +60,7 @@
 &kp TAB    &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y       &kp U  &kp I      &kp O    &kp P     &kp LEFT_BRACKET
 &lt 2 ESC  &kp A  &kp S  &kp D     &kp F      &kp G        &kp H       &kp J  &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
 &kp LGUI   &kp Z  &kp X  &kp C     &kp V      &kp B        &kp N       &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_BRACKET
-                         &kp LALT  &kp LCTRL  &kp SPACE    &kp RSHIFT  &mo 1  &mo 8
+                         &kp LALT  &kp LCTRL  &kp SPACE    &kp RSHIFT  &mo 1  &mo 7
             >;
 
             label = "MAIN";
@@ -91,10 +91,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none   &none  &none  &none   &mo 5   &none     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END      &none  &kp BACKSPACE
-&none   &none  &none  &none   &mo 8   &mo 4     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT    &none  &kp ENTER
-&trans  &none  &none  &mo 7   &none   &mo 3     &none     &none      &none      &key_repeat  &none  &kp DEL
-                      &trans  &trans  &trans    &trans    &trans     &trans
+&none   &none  &none  &none   &mo 4   &none     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END      &none  &kp BACKSPACE
+&none   &none  &none  &none   &none   &none     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT    &none  &kp ENTER
+&trans  &none  &none  &mo 6   &none   &mo 3     &none     &none      &none      &key_repeat  &none  &kp DEL
+                      &trans  &trans  &trans    &trans    &mo 5      &trans
             >;
 
             label = "NAV";
@@ -111,17 +111,6 @@
             label = "bluetooth";
         };
 
-        game {
-            bindings = <
-&trans  &trans    &kp UP    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans     &trans  &trans    &trans  &tog 4  &trans
-            >;
-
-            label = "game";
-        };
-
         system {
             bindings = <
 &none  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none  &none
@@ -135,10 +124,10 @@
 
         settings {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none           &kp CAPS  &kp INS  &none  &kp PRINTSCREEN  &none
-&none  &none  &none  &none  &none  &none    &none           &none     &none    &none  &none            &none
-&none  &none  &none  &none  &none  &none    &kp KP_NUMLOCK  &none     &none    &none  &none            &none
-                     &none  &none  &none    &none           &none     &none
+&none  &none  &none  &none  &none  &none    &none           &kp CAPS       &kp INS      &none    &kp PRINTSCREEN  &none
+&none  &none  &none  &none  &none  &none    &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none            &none
+&none  &none  &none  &none  &none  &none    &kp KP_NUMLOCK  &none          &none        &none    &none            &none
+                     &none  &none  &none    &none           &none          &none
             >;
 
             label = "settings";
