@@ -44,6 +44,12 @@
             slow-release;
             layers = <0>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
     };
 
     keymap {
