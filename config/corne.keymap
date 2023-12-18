@@ -41,13 +41,24 @@
             bindings = <&kp LEFT_BRACE>;
             key-positions = <10 11>;
             timeout-ms = <0>;
-            slow-release;
             layers = <0>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <19 20>;
+            layers = <0>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <7 8>;
+            layers = <0>;
+        };
+
+        delete {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <31 32>;
             layers = <0>;
         };
     };
