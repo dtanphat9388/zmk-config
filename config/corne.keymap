@@ -118,10 +118,10 @@
 
         RSTLNE {
             bindings = <
-&trans  &kp Q  &kp W  &kp D   &kp F   &kp Z           &kp SEMI  &kp U   &kp K   &kp Y      &kp P    &trans
-&trans  &kp A  &kp S  &kp E   &kp R   &kp L           &kp H     &kp N   &kp I   &kp O      &kp T    &trans
-&trans  &kp G  &kp X  &kp C   &kp V   &kp QUESTION    &kp B     &kp J   &kp M   &kp COMMA  &kp DOT  &trans
-                      &trans  &trans  &trans          &trans    &trans  &trans
+&trans  &kp Q  &kp W  &kp D   &kp F   &kp Z           &kp SEMI  &kp U   &kp K  &kp Y      &kp P    &trans
+&trans  &kp A  &kp S  &kp E   &kp R   &kp L           &kp H     &kp N   &kp I  &kp O      &kp T    &trans
+&trans  &kp G  &kp X  &kp C   &kp V   &kp QUESTION    &kp B     &kp J   &kp M  &kp COMMA  &kp DOT  &trans
+                      &trans  &trans  &trans          &trans    &trans  &to 0
             >;
         };
     };
