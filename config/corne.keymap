@@ -12,7 +12,7 @@
 &mt {
     flavor = "tap-preferred";
     hold-trigger-key-positions = <>;
-    retro-tap;
+    tapping-term-ms = <100>;
 };
 
 / {
