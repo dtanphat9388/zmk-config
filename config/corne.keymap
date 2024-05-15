@@ -22,44 +22,6 @@
             tapping-term-ms = <200>;
             bindings = <&mt RSHIFT SPACE>, <&kp CAPS>;
         };
-
-        td1: open3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "open3";
-            #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings =
-                <&kp LEFT_PARENTHESIS>,
-                <&kp LEFT_BRACE>,
-                <&kp LEFT_BRACKET>;
-        };
-
-        td2: close3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "close3";
-            #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings =
-                <&kp RIGHT_PARENTHESIS>,
-                <&kp RIGHT_BRACE>,
-                <&kp RIGHT_BRACKET>;
-        };
-
-        td3: close2 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "close2";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp RIGHT_BRACKET>, <&kp RIGHT_PARENTHESIS>;
-        };
-
-        td4: open2 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "open2";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp LEFT_BRACKET>, <&kp LEFT_PARENTHESIS>;
-        };
     };
 
     keymap {
