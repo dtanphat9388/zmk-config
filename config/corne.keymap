@@ -10,8 +10,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &mt {
-    quick-tap-ms = <200>;
-    flavor = "tap-unless-interrupted";
+    flavor = "tap-preferred";
+    tapping-term-ms = <150>;
 };
 
 &lt {
