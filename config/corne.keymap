@@ -13,6 +13,7 @@
     flavor = "tap-preferred";
     hold-while-undecided;
     tapping-term-ms = <150>;
+    quick-tap-ms = <0>;
 };
 
 &lt {
