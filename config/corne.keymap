@@ -17,26 +17,6 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    behaviors {
-        td: tap_dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "toggle Space or Shift or Caps";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mt RSHIFT SPACE>, <&kp CAPS>;
-        };
-
-        tm: tm {
-            compatible = "zmk,behavior-hold-tap";
-            label = "Tap & Modify";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <0>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
