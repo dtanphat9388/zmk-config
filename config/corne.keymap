@@ -10,7 +10,14 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        fdsaf {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <14 10>;
+        };
+    };
 
     behaviors {
         tm: tm {
