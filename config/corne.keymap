@@ -10,7 +10,14 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        fdasf {
+            bindings = <&kp B>;
+            key-positions = <16 32>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
