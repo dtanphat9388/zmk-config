@@ -45,10 +45,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E         &kp R      &kp T        &kp Y                   &kp U  &kp I      &kp O    &kp P     &kp LEFT_BRACKET
-&lt 2 ESC  &kp A  &kp S  &kp D         &kp F      &kp G        &kp H                   &kp J  &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&kp LGUI   &kp Z  &kp X  &kp C         &kp V      &kp B        &kp N                   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_BRACKET
-                         &kp LEFT_ALT  &kp LCTRL  &kp SPACE    &hmr RIGHT_SHIFT SPACE  &mo 1  &mo 2
+&kp TAB    &kp Q  &kp W  &kp E         &kp R      &kp T        &kp Y            &kp U  &kp I      &kp O    &kp P     &kp LEFT_BRACKET
+&lt 2 ESC  &kp A  &kp S  &kp D         &kp F      &kp G        &kp H            &kp J  &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&kp LGUI   &kp Z  &kp X  &kp C         &kp V      &kp B        &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_BRACKET
+                         &kp LEFT_ALT  &kp LCTRL  &kp SPACE    &kp RIGHT_SHIFT  &mo 1  &mo 2
             >;
 
             label = "MAIN";
