@@ -10,7 +10,14 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        controls {
+            bindings = <&mo 3>;
+            key-positions = <38 39>;
+        };
+    };
 
     behaviors {
         hml: homewrow_mods_left {
