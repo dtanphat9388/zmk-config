@@ -24,6 +24,21 @@
         };
     };
 
+    behaviors {
+        new_ht: new_ht {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NEW_HT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <180>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
+            flavor = "balanced";
+            hold-trigger-on-release;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
