@@ -10,19 +10,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Lboot {
-            bindings = <&bootloader>;
-            key-positions = <36 37 38>;
-        };
-
-        Rboot {
-            bindings = <&bootloader>;
-            key-positions = <39 40 41>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
